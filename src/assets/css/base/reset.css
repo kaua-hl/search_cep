@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--c-4);
+}
+
+form,
+input,
+button {
+  display: block;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  color: var(--c-4);
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--c-4);
+}
